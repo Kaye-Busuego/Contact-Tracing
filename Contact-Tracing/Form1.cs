@@ -11,6 +11,13 @@ namespace Contact_Tracing
         {
             StreamWriter file = new StreamWriter(@"C:\Users\Jovelyn Vitales\Desktop\Contact Tracing\Result.txt", true);
             file.WriteLine("Name: " + txtboxName.Text);
+            file.WriteLine("Age: " + txtboxAge.Text);
+            file.WriteLine("Address: " + txtboxAddress.Text);
+            file.WriteLine("Sex: " + txtboxSex.Text);
+            file.WriteLine("Contact#: " + txtboxContact.Text);
+            file.WriteLine("Temperature: " + txtboxTemp.Text);
+            file.WriteLine("Date of Visit: " + txtboxDOV.Text);
+            file.WriteLine("Reason for Visitation: " + txtboxRFV.Text);
             file.Close();
         }
     }

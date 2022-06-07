@@ -32,7 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtboxName = new System.Windows.Forms.TextBox();
-            this.txtbox4Sex = new System.Windows.Forms.TextBox();
+            this.txtboxSex = new System.Windows.Forms.TextBox();
             this.txtboxContact = new System.Windows.Forms.TextBox();
             this.txtboxAge = new System.Windows.Forms.TextBox();
             this.txtboxAddress = new System.Windows.Forms.TextBox();
@@ -86,13 +86,13 @@
             this.txtboxName.Size = new System.Drawing.Size(270, 27);
             this.txtboxName.TabIndex = 1;
             // 
-            // txtbox4Sex
+            // txtboxSex
             // 
-            this.txtbox4Sex.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtbox4Sex.Location = new System.Drawing.Point(126, 158);
-            this.txtbox4Sex.Name = "txtbox4Sex";
-            this.txtbox4Sex.Size = new System.Drawing.Size(270, 27);
-            this.txtbox4Sex.TabIndex = 4;
+            this.txtboxSex.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtboxSex.Location = new System.Drawing.Point(126, 158);
+            this.txtboxSex.Name = "txtboxSex";
+            this.txtboxSex.Size = new System.Drawing.Size(270, 27);
+            this.txtboxSex.TabIndex = 4;
             // 
             // txtboxContact
             // 
@@ -231,7 +231,7 @@
             this.Controls.Add(this.txtboxAddress);
             this.Controls.Add(this.txtboxAge);
             this.Controls.Add(this.txtboxContact);
-            this.Controls.Add(this.txtbox4Sex);
+            this.Controls.Add(this.txtboxSex);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtboxName);
@@ -250,7 +250,7 @@
         private Label label1;
         private Label label2;
         private TextBox txtboxName;
-        private TextBox txtbox4Sex;
+        private TextBox txtboxSex;
         private TextBox txtboxContact;
         private TextBox txtboxAge;
         private TextBox txtboxAddress;

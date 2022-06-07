@@ -28,34 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.submitbtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1Name = new System.Windows.Forms.TextBox();
-            this.textBox4Sex = new System.Windows.Forms.TextBox();
-            this.textBox5Contact = new System.Windows.Forms.TextBox();
-            this.textBox2Age = new System.Windows.Forms.TextBox();
-            this.textBox3Address = new System.Windows.Forms.TextBox();
+            this.txtboxName = new System.Windows.Forms.TextBox();
+            this.txtbox4Sex = new System.Windows.Forms.TextBox();
+            this.txtboxContact = new System.Windows.Forms.TextBox();
+            this.txtboxAge = new System.Windows.Forms.TextBox();
+            this.txtboxAddress = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox6Temp = new System.Windows.Forms.TextBox();
+            this.txtboxTemp = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox7DOV = new System.Windows.Forms.TextBox();
+            this.txtboxDOV = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox8RFV = new System.Windows.Forms.TextBox();
+            this.txtboxRFV = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // submitbtn
             // 
-            this.button1.Location = new System.Drawing.Point(913, 332);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(89, 33);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Submit";
-            this.button1.UseVisualStyleBackColor = true;
+            this.submitbtn.Location = new System.Drawing.Point(913, 332);
+            this.submitbtn.Name = "submitbtn";
+            this.submitbtn.Size = new System.Drawing.Size(89, 33);
+            this.submitbtn.TabIndex = 0;
+            this.submitbtn.Text = "Submit";
+            this.submitbtn.UseVisualStyleBackColor = true;
+            this.submitbtn.Click += new System.EventHandler(this.submitbtn_Click);
             // 
             // label1
             // 
@@ -77,45 +78,45 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Name";
             // 
-            // textBox1Name
+            // txtboxName
             // 
-            this.textBox1Name.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1Name.Location = new System.Drawing.Point(126, 59);
-            this.textBox1Name.Name = "textBox1Name";
-            this.textBox1Name.Size = new System.Drawing.Size(270, 27);
-            this.textBox1Name.TabIndex = 1;
+            this.txtboxName.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtboxName.Location = new System.Drawing.Point(126, 59);
+            this.txtboxName.Name = "txtboxName";
+            this.txtboxName.Size = new System.Drawing.Size(270, 27);
+            this.txtboxName.TabIndex = 1;
             // 
-            // textBox4Sex
+            // txtbox4Sex
             // 
-            this.textBox4Sex.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox4Sex.Location = new System.Drawing.Point(126, 158);
-            this.textBox4Sex.Name = "textBox4Sex";
-            this.textBox4Sex.Size = new System.Drawing.Size(270, 27);
-            this.textBox4Sex.TabIndex = 4;
+            this.txtbox4Sex.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtbox4Sex.Location = new System.Drawing.Point(126, 158);
+            this.txtbox4Sex.Name = "txtbox4Sex";
+            this.txtbox4Sex.Size = new System.Drawing.Size(270, 27);
+            this.txtbox4Sex.TabIndex = 4;
             // 
-            // textBox5Contact
+            // txtboxContact
             // 
-            this.textBox5Contact.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox5Contact.Location = new System.Drawing.Point(126, 191);
-            this.textBox5Contact.Name = "textBox5Contact";
-            this.textBox5Contact.Size = new System.Drawing.Size(270, 27);
-            this.textBox5Contact.TabIndex = 5;
+            this.txtboxContact.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtboxContact.Location = new System.Drawing.Point(126, 191);
+            this.txtboxContact.Name = "txtboxContact";
+            this.txtboxContact.Size = new System.Drawing.Size(270, 27);
+            this.txtboxContact.TabIndex = 5;
             // 
-            // textBox2Age
+            // txtboxAge
             // 
-            this.textBox2Age.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2Age.Location = new System.Drawing.Point(126, 92);
-            this.textBox2Age.Name = "textBox2Age";
-            this.textBox2Age.Size = new System.Drawing.Size(270, 27);
-            this.textBox2Age.TabIndex = 6;
+            this.txtboxAge.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtboxAge.Location = new System.Drawing.Point(126, 92);
+            this.txtboxAge.Name = "txtboxAge";
+            this.txtboxAge.Size = new System.Drawing.Size(270, 27);
+            this.txtboxAge.TabIndex = 6;
             // 
-            // textBox3Address
+            // txtboxAddress
             // 
-            this.textBox3Address.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3Address.Location = new System.Drawing.Point(126, 125);
-            this.textBox3Address.Name = "textBox3Address";
-            this.textBox3Address.Size = new System.Drawing.Size(270, 27);
-            this.textBox3Address.TabIndex = 7;
+            this.txtboxAddress.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtboxAddress.Location = new System.Drawing.Point(126, 125);
+            this.txtboxAddress.Name = "txtboxAddress";
+            this.txtboxAddress.Size = new System.Drawing.Size(270, 27);
+            this.txtboxAddress.TabIndex = 7;
             // 
             // label4
             // 
@@ -157,13 +158,13 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "Contact #";
             // 
-            // textBox6Temp
+            // txtboxTemp
             // 
-            this.textBox6Temp.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox6Temp.Location = new System.Drawing.Point(126, 224);
-            this.textBox6Temp.Name = "textBox6Temp";
-            this.textBox6Temp.Size = new System.Drawing.Size(270, 27);
-            this.textBox6Temp.TabIndex = 13;
+            this.txtboxTemp.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtboxTemp.Location = new System.Drawing.Point(126, 224);
+            this.txtboxTemp.Name = "txtboxTemp";
+            this.txtboxTemp.Size = new System.Drawing.Size(270, 27);
+            this.txtboxTemp.TabIndex = 13;
             // 
             // label7
             // 
@@ -175,13 +176,13 @@
             this.label7.TabIndex = 14;
             this.label7.Text = "Temperature";
             // 
-            // textBox7DOV
+            // txtboxDOV
             // 
-            this.textBox7DOV.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox7DOV.Location = new System.Drawing.Point(126, 257);
-            this.textBox7DOV.Name = "textBox7DOV";
-            this.textBox7DOV.Size = new System.Drawing.Size(270, 27);
-            this.textBox7DOV.TabIndex = 15;
+            this.txtboxDOV.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtboxDOV.Location = new System.Drawing.Point(126, 257);
+            this.txtboxDOV.Name = "txtboxDOV";
+            this.txtboxDOV.Size = new System.Drawing.Size(270, 27);
+            this.txtboxDOV.TabIndex = 15;
             // 
             // label8
             // 
@@ -193,13 +194,13 @@
             this.label8.TabIndex = 16;
             this.label8.Text = "Date of Visit";
             // 
-            // textBox8RFV
+            // txtboxRFV
             // 
-            this.textBox8RFV.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox8RFV.Location = new System.Drawing.Point(126, 299);
-            this.textBox8RFV.Name = "textBox8RFV";
-            this.textBox8RFV.Size = new System.Drawing.Size(270, 27);
-            this.textBox8RFV.TabIndex = 17;
+            this.txtboxRFV.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtboxRFV.Location = new System.Drawing.Point(126, 299);
+            this.txtboxRFV.Name = "txtboxRFV";
+            this.txtboxRFV.Size = new System.Drawing.Size(270, 27);
+            this.txtboxRFV.TabIndex = 17;
             // 
             // label9
             // 
@@ -218,23 +219,23 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1014, 377);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox8RFV);
+            this.Controls.Add(this.txtboxRFV);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox7DOV);
+            this.Controls.Add(this.txtboxDOV);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox6Temp);
+            this.Controls.Add(this.txtboxTemp);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3Address);
-            this.Controls.Add(this.textBox2Age);
-            this.Controls.Add(this.textBox5Contact);
-            this.Controls.Add(this.textBox4Sex);
+            this.Controls.Add(this.txtboxAddress);
+            this.Controls.Add(this.txtboxAge);
+            this.Controls.Add(this.txtboxContact);
+            this.Controls.Add(this.txtbox4Sex);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1Name);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtboxName);
+            this.Controls.Add(this.submitbtn);
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "Contact Tracing Questionnaire";
@@ -245,23 +246,23 @@
 
         #endregion
 
-        private Button button1;
+        private Button submitbtn;
         private Label label1;
         private Label label2;
-        private TextBox textBox1Name;
-        private TextBox textBox4Sex;
-        private TextBox textBox5Contact;
-        private TextBox textBox2Age;
-        private TextBox textBox3Address;
+        private TextBox txtboxName;
+        private TextBox txtbox4Sex;
+        private TextBox txtboxContact;
+        private TextBox txtboxAge;
+        private TextBox txtboxAddress;
         private Label label4;
         private Label label3;
         private Label label5;
         private Label label6;
-        private TextBox textBox6Temp;
+        private TextBox txtboxTemp;
         private Label label7;
-        private TextBox textBox7DOV;
+        private TextBox txtboxDOV;
         private Label label8;
-        private TextBox textBox8RFV;
+        private TextBox txtboxRFV;
         private Label label9;
     }
 }

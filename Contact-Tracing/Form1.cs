@@ -6,5 +6,6 @@ namespace Contact_Tracing
         {
             InitializeComponent();
         }
+
     }
 }

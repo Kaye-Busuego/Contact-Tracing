@@ -22,7 +22,9 @@ namespace Contact_Tracing
             file.WriteLine("Had COVID-19 for the past 90 days: " + txtboxq1.Text);
             file.WriteLine("Had any contact with a COVID-19 patient for the last 2 weeks: " + txtboxq2.Text);
             file.WriteLine("Had a family member who had infected with COVID-19 recently: " + txtboxq3.Text);
-            file.WriteLine("Had COVID-19 symtomps recently:  " + txtboxq4.Text);
+            file.WriteLine("Had been recently tested for COVID-19 due to symptoms and are still awaiting test results: " + txtboxq4.Text);
+            file.WriteLine("Age: " + txtboxAge.Text);
+            file.WriteLine("Age: " + txtboxAge.Text);
             file.Close();
 
 

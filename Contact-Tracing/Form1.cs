@@ -20,14 +20,7 @@ namespace Contact_Tracing
             file.WriteLine("Date of Visit: " + txtboxDOV.Text);
             file.WriteLine("Reason for Visitation: " + txtboxRFV.Text);
             file.WriteLine("Had COVID-19 for the past 90 days: " + txtboxq1.Text);
-            file.WriteLine("Had any contact with a COVID-19 patient for the last 2 weeks: " + txtboxq2.Text);
-            file.WriteLine("Had a family member who had infected with COVID-19 recently: " + txtboxq3.Text);
-            file.WriteLine("Had been recently tested for COVID-19 due to symptoms and are still awaiting test results: " + txtboxq4.Text);
             file.WriteLine("Had received COVID-19 vaccine: " + txtboxq5.Text);
-            file.WriteLine("If yes, state the number of doses: " + txtboxq6.Text);
-            file.WriteLine("Had booster shot: " + txtboxq7.Text);
-            file.WriteLine("Do you have any of these other symptoms today? " + txtboxq8.Text);
-            file.WriteLine("If yes, state the letter/s in the blank space: " + txtboxq9.Text);
             file.Close();
 
 

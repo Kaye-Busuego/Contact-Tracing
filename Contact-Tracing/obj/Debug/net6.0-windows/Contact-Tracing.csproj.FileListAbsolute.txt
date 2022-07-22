@@ -16,3 +16,6 @@ C:\Users\Jovelyn Vitales\Documents\Kaye Busuego - Contact Tracing\Contact-Tracin
 C:\Users\Jovelyn Vitales\Documents\Kaye Busuego - Contact Tracing\Contact-Tracing\Contact-Tracing\obj\Debug\net6.0-windows\Contact-Tracing.genruntimeconfig.cache
 C:\Users\Jovelyn Vitales\Documents\Kaye Busuego - Contact Tracing\Contact-Tracing\Contact-Tracing\obj\Debug\net6.0-windows\ref\Contact-Tracing.dll
 C:\Users\Jovelyn Vitales\Documents\Kaye Busuego - Contact Tracing\Contact-Tracing\Contact-Tracing\obj\Debug\net6.0-windows\Contact_Tracing.Properties.Resources.resources
+C:\Users\Jovelyn Vitales\Documents\Kaye Busuego - Contact Tracing\Contact-Tracing\Contact-Tracing\obj\Debug\net6.0-windows\Contact_Tracing.Form2.resources
+C:\Users\Jovelyn Vitales\Documents\Kaye Busuego - Contact Tracing\Contact-Tracing\Contact-Tracing\obj\Debug\net6.0-windows\Contact_Tracing.Form3.resources
+C:\Users\Jovelyn Vitales\Documents\Kaye Busuego - Contact Tracing\Contact-Tracing\Contact-Tracing\obj\Debug\net6.0-windows\Contact_Tracing.UserControl1.resources
